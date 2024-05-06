@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+}
+
+form {
+  background-color: rgb(249, 243, 249);
+  width: 250px;
+  height: 200px;
+  padding: 25px;
+  
+}
+
+button {
+  background-color: #80ff80; 
+  color: white;
+  padding: 5px 20px;
+  transition-duration: 0.1s;
+}
+button:hover {
+  background-color: #45a049; 
+}
+
+#mg-1{
+	border-radius: 50%;
+}

@@ -1,0 +1,45 @@
+
+
+body {
+	background-color: white;
+	text-align: center;
+	
+}
+form {
+	text-align: center;
+  width: 150px;
+  margin: 5px 5px;
+  padding: 25px;
+  border: 5px solid yellow;
+  border-radius: 1px;
+}
+* Styles for labels and inputs */
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: maroon;
+}
+/* Styles for checkboxes */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Styles for the checkbox container */
+div {
+  margin-bottom: 15px;
+}
